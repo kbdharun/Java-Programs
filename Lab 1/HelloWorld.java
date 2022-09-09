@@ -1,4 +1,4 @@
-// Simple helloworld program
+// Simple helloworld program using Java
 import java.lang.*;
 class HelloWorld{
 	public static void main(String args[]){
