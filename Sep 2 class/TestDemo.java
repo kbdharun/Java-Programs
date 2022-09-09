@@ -1,4 +1,4 @@
-//Pass by Reference
+//Pass by Reference Java Program
 class Test{
 		int a,b;
 		void incr(Test t){
