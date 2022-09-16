@@ -1,0 +1,18 @@
+/*
+Question:
+- Create a class called Account 
+- With 2 datamember, accountNo of type int and balance of type double
+- Include default constructor, parameterised constructor and display function to diplay the balance amount.
+- Create a class called SavingsAccount, CurrentAccount derived from Account class
+include the member functions deposit (with the parameter as double), widthdrawal (with the parameter as double) [With conditional checking] these classes are inherited from account.
+
+- Create Seperate Account.java , Savings.java, Current.java seperate files and compile them independently.
+
+- Create a class Customer with datamembers customerID (int), customerName (string), customerAddress(string), accountReference - member function. 
+- In CustomerDemo, Add main func to Customer class, in main create 5 customer objects by using array of objects and do the transaction deposit and withdrawal based on user choice.
+- Based on user choice, with Dynamic Method Dispath (DMD) allow them to create Savings account, Current account by allowing the respective datamember.
+- 3 abstract method: Deposit, Withdraw, Display.
+
+Hint:
+- Set maximum amount for deposit i.e like 10 lakhs, and display error for more than 10 lakhs*/
+
