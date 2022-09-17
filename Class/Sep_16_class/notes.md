@@ -8,7 +8,7 @@
 
 - Naming Collision conflict is a serious issue in Java i.e happens when multiple people are working with same classes,etc on a project. This can be overcome using Packages.
 - Base class in one package and derived class in different package is possible.
-- Avoid * while importing packages as it will increase the compile time. But it can be used when we don't know the package.
+- Avoid `*` while importing packages as it will increase the compile time. But it can be used when we don't know the package.
 - Protected is not allowed for class.
 
 ## Commands

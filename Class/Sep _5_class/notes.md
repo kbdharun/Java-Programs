@@ -1,31 +1,34 @@
 # Notes (Sep 5,2022)
 
-# General Notes
+## General Notes
+
 - If a compiler finds an error then there is an error in code, if error is prevent in jvm(java) there will be an exception.
 
-## Static 
+### Static
+
 - Static block
 - Static datamember
 - Static member function
--  
 
-## IIB
+### IIB
+
 - **IIB** - **I**nstance **I**ntialization block.(Data member to be intialized with specific value.)
 - IIB is created before a constructor, *before object creation a constructor must be created. (Same applies for default const)*.
-- Only one compound block is allowed for IIB block. 
+- Only one compound block is allowed for IIB block.
 
-## Final datamember
+### Final datamember
+
 - It is used to create a symbolic constant.
 - Final datamember --> constant (Data/value can't be changed if datamember is precided by final).
 - Final memberfunction --> Prevents overriding.
 - Final class --> No derived
 
-# Programs
-## Program 1: Using IIB Block
-```java
-/* Java program using IIB block
-*/
+## Programs
 
+### Program 1: Using IIB Block
+
+```java
+/* Java program using IIB block*/
 class Student{
 	int regno;
 	String name;
@@ -46,13 +49,16 @@ class StudentDemo{
 	}
 }
 ```
-```
+
+```text
 Output: 
 IIB
 Constructor..
 reg..14
 ```
-## Program 2: Using static 
+
+## Program 2: Using static
+
 ```java
 /* Java program using IIB block and static datamember*/
 
@@ -104,7 +110,8 @@ class StudentDemo{
 	}
 }
 ```
-```
+
+```text
 Output:
 Static block
 xxxx:73
@@ -113,7 +120,9 @@ yyyy:70
 zzzz:53
 class avg..65
 ```
+
 ## Program 3: Final datamember
+
 ```java
 /* Java program using IIB block and static datamember*/
 
@@ -167,7 +176,8 @@ class StudentDemo{
 	}
 }
 ```
-```
+
+```text
 Output:
 Static block
 xxxx:73
@@ -176,5 +186,7 @@ yyyy:70
 zzzz:53
 class avg..65
 ```
+
 ## Programs to try
+
 - *Compute array of 3 distance using static datamember*.

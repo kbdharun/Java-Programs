@@ -1,18 +1,22 @@
 # Notes (Sep 6,2022)
 
 ## Topics
+
 - Nested class
-# General Notes
+
+## General Notes
+
 - Class can be prefixed with static.
 - In C,C++ we can define function after main, and we will get compilation error. Similarly in Java, it considers it as an undefined datamember.
-- Abstract class 
+- Abstract class:-
 - Memory isn't allocated in class definition unless *static datamember* as class is a blueprint. And memory can only be allocated by Object.
 
+### Nested class
 
-## Nested class
 - A class which is defined in another class.
 - There are **2 ways to create a nested class**: *Static and non-static nested class*.
 - Nested Scopes:
+
 ```(java)
 { //outer scope
 	int a=12; //inner scope
@@ -22,15 +26,18 @@
 }
 ```
 
-## Inner class
-- Inner class can be static, and it can only access Static datamember and static member function of outer class. 
+### Inner class
+
+- Inner class can be static, and it can only access Static datamember and static member function of outer class.
 - It is a **non-static nested class** or *static inner class*.
 
-## Anonymous object and class
+### Anonymous object and class
+
 - Object created without name.
 - Anonymous object is very commonly used in object classes.
-- *Anonymous inner class* is class created without name. 
-```(java)
+- *Anonymous inner class* is class created without name.
+
+```java
 \*Sample*\
 class Student{
 
@@ -43,9 +50,13 @@ class StudentDemo{
 	}
 }
 ```
-## Abstract class
+
+### Abstract class
+
 - In abstract class we no need to create IIB block.
-## Program 1: Invoking object in Outer class
+
+### Program 1: Invoking object in Outer class
+
 ```java
 class Outer{
 	int a;
@@ -72,13 +83,15 @@ class OuterDemo{
 	}
 }
 ```
-```
+
+```text
 Output:
 outer...
 Inner class...
 ```
 
 ## Program 2: Using abstract class
+
 ```java
 abstract class Inner{
 	abstract void display(); //abstract class forces inheritance
@@ -106,12 +119,15 @@ class OuterDemo{
 	}
 }
 ```
-```
+
+```text
 Output:
 Outer class...
 Inner class..
 ```
-Continuation:
+
+- Continuation:
+
 ```(java)
 abstract class Inner{
 	//abstract void display(); 
@@ -144,11 +160,9 @@ class OuterDemo{
 	}
 }
 ```
-```
+
+```text
 Output:
 Outer class...
 Inner class..10
 ```
-
-
-

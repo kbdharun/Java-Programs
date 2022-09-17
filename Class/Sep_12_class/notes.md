@@ -1,14 +1,14 @@
 # Notes (September 12,2022)
 
-# Topics
+## Topics
 
 - Dynamic Method Dispatch
 
-# General Notes
+## General Notes
 
 - Dynamic Polymorphism - Binding happens at runtime.
 
-## Dynamic Method Dispatch (DMD)
+### Dynamic Method Dispatch (DMD)
 
 - *Rule:* Base class reference - Derived class object.
 - *Constraint:* We can access only **overridden**.
@@ -18,7 +18,7 @@
 - The suitable inheritance type for DMD is **Hierarchial**.
 - NOTE: We can use base class reference not base class object.
 
-## Program 1a: Dynamic Method Dispatch (Shape)
+### Program 1a: Dynamic Method Dispatch (Shape)
 
 ```java
 /*Dynamic Method Dispatch- Runtime Poly*/
@@ -68,7 +68,7 @@ class DMDDemo{
 }
 ```
 
-```
+```text
 Error upon Compilation: 
  DMDDemo.java:39: error: cannot find symbol
 			s=r; //base class reference = derived class object
@@ -83,7 +83,8 @@ DMDDemo.java:41: error: cannot find symbol
 2 errors
 ```
 
-## Program 1b: Using abstract class with DMD
+### Program 1b: Using abstract class with DMD
+
 ```java
 /*Dynamic Method Dispatch- Runtime Poly*/
 import java.util.Scanner;
@@ -134,14 +135,14 @@ class DMDDemo{
 
 ```
 
-```
+```text
 Output:
 1
 Area of Rectangle..3597.84
 
 ```
 
-## Program 2:
+## Program 2:-
 
 To Try: Create a class called Shape3d with overridden member function called volume, define the classes named sphere, cone and cylinder. Redefine volume method appropriately in each derived classes. Implement by using Dynamic method dispatch concept.
 
@@ -207,7 +208,7 @@ class DMD2{
 
 ```
 
-```
+```text
 Output:
 1
 Volume of Sphere..297731.08224

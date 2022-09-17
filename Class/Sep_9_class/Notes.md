@@ -1,11 +1,13 @@
 # Notes (September 9,2022)
 
-# Topics
+## Topics
+
 - Reusability
 - Inheritance
 - Access Specifiers
 
-# General Notes
+## General Notes
+
 - Interface is completely abstract class.
 - Base class constructor is called first when using super keyword.
 - Dot [.] is the only allowed member axis datamember.
@@ -13,11 +15,14 @@
 - Overloading is a way of implementing static polymorphism, whereas overriding is a way of implementing dynamic polymorphism.
 - super.memfunc resolves conflict of base class datamember and dervived class
 
-## Reusability
+### Reusability
+
 - It is possible due to Inheritance. (Inheritance<-->Reusability)
 
-## Inheritance
+### Inheritance
+
 - **Types:**
+  
 1. Single (A->B)
 2. Multiple (Generalisation) ([A,B]->C)
 3. Hierarchial (Specialisation) (A->[B,C])
@@ -34,21 +39,25 @@ class <subclass> extends <baseclass>{
 ... //Deletion with access specifier.
 }
 ```
+
 - Extends, super <-- keyword
 - Example: A->B (A,B has disp functions);when using Inheritance data will be allocated for A in B and the data members are shared.
 
-## Access Specifiers
+### Access Specifiers
+
 - Private
 - Public
 - Protected
 
-## Use of super keyword:
+### Use of super keyword:
+
 1. To invoke/call base class constructor.
 2. To access overriden data member.
 3. To call overriden member function.
 
-## Overriding and Overloading
-```
+### Overriding and Overloading
+
+```text
 //Overloading
 
 void findDistance(int,int);
@@ -62,7 +71,8 @@ void findDistance(Point p1, Point p2);
 void findDistance(Point p1,Point p2);
 ```
 
-## Program 1a: Basic Inheritance Program
+### Program 1a: Basic Inheritance Program
+
 ```java
 /*Inheritance*/
 class A{
@@ -85,13 +95,15 @@ class InheritanceDemo{
 	}
 }
 ```
-```
+
+```text
 Output:
 B's..b....0
 A's..a....0
 ```
 
-## Program 1b: Inheritance Program using Default Constructor
+### Program 1b: Inheritance Program using Default Constructor
+
 ```java
 /*Inheritance*/
 class A{
@@ -120,7 +132,8 @@ class InheritanceDemo{
 	}
 }
 ```
-```
+
+```text
 Output:
 Constructor of A...
 Constructor of B..
@@ -128,7 +141,8 @@ B's..b....0
 A's..a....0
 ```
 
-## Program 2: Inheritance using super keyword
+### Program 2: Inheritance using super keyword
+
 ```java
 /*Inheritance*/
 class A{
@@ -161,7 +175,8 @@ class InheritanceDemo{
 	}
 }
 ```
-```
+
+```text
 Output:
 Constructor of A...
 Constructor of B..
@@ -170,8 +185,10 @@ B's..b....30
 A's..a....10
 ```
 
-## Program 3a: Inheritance using super keyword with an overriden datamember
+### Program 3a: Inheritance using super keyword with an overriden datamember
+
 - Note: We can refine existing datamember in base class using super keyword.
+
 ```java
 /*Inheritance*/
 class A{
@@ -205,7 +222,8 @@ class InheritanceDemo{
 	}
 }
 ```
-```
+
+```text
 Output:
 Constructor of A...
 Constructor of B..
@@ -214,7 +232,8 @@ B's..b....30
 A's..a....10
 ```
 
-## Program 3b: Inheritance using super keyword with an overriden datamember(long)
+### Program 3b: Inheritance using super keyword with an overriden datamember(long)
+
 ```java
 /*Inheritance*/
 class A{
@@ -250,7 +269,8 @@ class InheritanceDemo{
 	}
 }
 ```
-```
+
+```text
 Output:
 Constructor of A...
 Constructor of B..
@@ -259,7 +279,8 @@ B's..a....20
 B's..b....30
 ```
 
-## Program 4: Calling member function using Super
+### Program 4: Calling member function using Super
+
 ```java
 /*Inheritance*/
 class A{
@@ -293,7 +314,8 @@ class InheritanceDemo{
 	}
 }
 ```
-```
+
+```text
 Output:
 Constructor of A...
 Constructor of B..

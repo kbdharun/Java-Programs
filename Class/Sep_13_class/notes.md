@@ -1,22 +1,22 @@
 # Notes (September 13,2022)
 
-# Topics
+## Topics
 
 - Dynamic Type Inference with Multi Level Inheritance
 
-# General Notes
+## General Notes
 
 - If we don't know a primitve or user defined data type we use where.
 - Java allows Dynamic type casting.
 
-## Dynamic Type Inference with Multi Level Inheritance
+### Dynamic Type Inference with Multi Level Inheritance
 
 - Rule: Base class reference is compatible with derived class object.
 - Property of Class A --Inherited->B(Direct Derived class)-->C (Indirect derived class).
 - A's reference is compatible with Direct and Indirect derived classes.
 - In DMD and here use anonymous nameless obj class inference.
 
-## Program 1(a):-
+### Program 1(a):-
 
 ```java
 /*Java programs using DTI- Multilevel inheritance*/
@@ -62,13 +62,13 @@ class DTIDemo{
 }
 ```
 
-```
+```text
 Output:
 1
 Object created...MyClass
 ```
 
-## Program 1(b):-
+### Program 1(b):-
 
 ```java
 /*Java programs using DTI- Multilevel inheritance*/
@@ -117,19 +117,19 @@ public class DTIDemo{
 }
 ```
 
-```
+```text
 Output:
 1
 Object created...x=10
 ```
 
-## Program 2:-
+### Program 2:-
 
 - Using Multilevel Inheritence.
 - Create a class called box with 3 datamembers with a overridden toString function to display the width, height and depth. Create a class called boxWeight with a datamember weight and overridden toString to display width, height and depth. Create a class called Shipment with cost datamember and overridden to display width, height, depth, weight and cost.
 - Hint:
 
-```
+```text
 Box
 |width,height,depth,toString()
 BoxWeight
@@ -192,7 +192,7 @@ public class Box{
 }
 ```
 
-```
+```text
 Output:
 1
 Object created...x =1y=2z=3
