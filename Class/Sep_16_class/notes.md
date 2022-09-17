@@ -2,7 +2,7 @@
 
 ## Topics
 
-- Package & import
+- Package & Import
 
 ## General Notes
 

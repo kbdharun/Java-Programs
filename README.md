@@ -1,2 +1,13 @@
 # Java-Programs
+
 This repository contains java programs that I work out in class along with my lecture notes.
+
+## Index
+
+- [Introduction to Java (Aug 30)](Class/Aug_30_class/notes)
+- [Static, Instance Initialization Block, Final Datamember (Sep 5)](Class/Sep_5_class/notes)
+- [Nested class, Anonymous object & class, Abstract class (Sep 6)](Class/Sep_6_class/notes)
+- [Reusability, Inheritance, Access Specifiers (Sep 9)](Class/Sep_9_class/notes)
+- [Dynamic Method Dispatch (Sep 12)](Class/Sep_12_class/notes)
+- [Dynamic Type Inference with Multi Level Inheritance (Sep 13)](Class/Sep_13_class/notes)
+- [Package & Import (Sep 16)](Class/Sep_16_class/notes)

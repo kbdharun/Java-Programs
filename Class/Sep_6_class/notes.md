@@ -3,6 +3,8 @@
 ## Topics
 
 - Nested class
+- Anonymous object and class
+- Abstract class
 
 ## General Notes
 

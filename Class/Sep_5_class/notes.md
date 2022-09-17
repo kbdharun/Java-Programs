@@ -1,5 +1,11 @@
 # Notes (Sep 5,2022)
 
+## Topics
+
+- Static
+- IIB
+- Final Datamember
+
 ## General Notes
 
 - If a compiler finds an error then there is an error in code, if error is prevent in jvm(java) there will be an exception.
@@ -12,7 +18,7 @@
 
 ### IIB
 
-- **IIB** - **I**nstance **I**ntialization block.(Data member to be intialized with specific value.)
+- **IIB** - **I**nstance **I**nitialization block.(Data member to be intialized with specific value.)
 - IIB is created before a constructor, *before object creation a constructor must be created. (Same applies for default const)*.
 - Only one compound block is allowed for IIB block.
 

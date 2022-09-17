@@ -1,4 +1,4 @@
-// Simple helloworld program using java
+// Simple helloworld program
 import java.lang.*;
 class HelloWorld{
 	public static void main(String args[]){
@@ -6,7 +6,7 @@ class HelloWorld{
 		{
 		if(i==5)
 		break;
-		System.out.println(i);
+		System.out.println("Hello world "+i);
 		}
 		}
 }
