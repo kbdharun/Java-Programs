@@ -9,7 +9,7 @@ on:
     # Paths can be used to only trigger actions when you have edited certain files, such as a file within the /docs directory
     paths:
       - 'Class/**.md'
-
+  workflow_dispatch:
 jobs:
   converttopdf:
     name: Build PDF
