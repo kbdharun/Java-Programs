@@ -2,6 +2,8 @@
 
 This repository contains java programs that I work out in class along with my lecture notes.
 
+[![Deploy Webpage](https://github.com/kbdharun/Java-Programs/actions/workflows/pages.yml/badge.svg)](https://github.com/kbdharun/Java-Programs/actions/workflows/pages.yml)
+
 ## Index
 
 - [Introduction to Java (Aug 30)](Class/Aug_30_class/notes.md)
