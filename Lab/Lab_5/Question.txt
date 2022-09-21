@@ -1,0 +1,9 @@
+Question
+- Create a package named bank and then create a subpackage named acc.The folder acc should contain Account.class.
+- In acc include 2 subpackages names sav and cur. 
+	sav subdirectory should include Savings.class file.
+	 cur subpackage should include Current.class
+ Recompile it using javac -d . {{Account.java}} subcommand ,before 
+- Create a subpackage called cus in bank it should include Customer.java 
+
+The customerDemo.java should be placed outside entire folder hierarchy - outside bank.
