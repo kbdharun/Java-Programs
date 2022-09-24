@@ -130,7 +130,7 @@ Inner class..
 
 - Continuation:
 
-```(java)
+```java
 abstract class Inner{
 	//abstract void display(); 
 }

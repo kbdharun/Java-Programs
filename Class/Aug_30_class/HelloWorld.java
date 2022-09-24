@@ -10,3 +10,6 @@ class HelloWorld{
 		}
 		}
 }
+
+/* Note Avoid * while importing packages as it will increase the compile time.
+ But it can be used when you don't know the package in which your function resides. */
