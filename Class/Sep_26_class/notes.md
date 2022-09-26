@@ -154,3 +154,31 @@ class Test{
 123
 825373450
 ```
+
+## Program 4: Exception
+
+```javac
+import java.io.DataInputStream;
+import java.io.IOException;
+class Test{
+    static void test(){
+        DataInputStream din=new DataInputStream(System.in);
+        int a=din.readInt();
+        Thread.sleep(100);
+        System.out.println(a);
+    }
+    public static void main(String args[]){
+        test();
+    }
+}
+```
+
+```bash
+Test.java:6: error: unreported exception IOException; must be caught or declared to be thrown
+        int a=din.readInt();
+                         ^
+Test.java:7: error: unreported exception InterruptedException; must be caught or declared to be thrown
+        Thread.sleep(100);
+                    ^
+2 errors
+```
