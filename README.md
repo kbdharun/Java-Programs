@@ -14,3 +14,4 @@ This repository contains java programs that I work out in class along with my le
 - [Dynamic Type Inference with Multi Level Inheritance (Sep 13)](Class/Sep_13_class/notes.md)
 - [Package & Import (Sep 16)](Class/Sep_16_class/notes.md)
 - [Interface & Implements (Sep 19)](Class/Sep_19_class/notes.md)
+- [Exception (Sep 26)](Class/Sep_26_class/notes.md)
