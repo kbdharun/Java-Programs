@@ -15,4 +15,4 @@ This repository contains java programs that I work out in class along with my le
 - [Package & Import (Sep 16)](Class/Sep_16_class/notes.md)
 - [Interface & Implements (Sep 19)](Class/Sep_19_class/notes.md)
 - [Exception (Sep 26)](Class/Sep_26_class/notes.md)
-- [Excpetion and it's types [Arithmetic,etc] (Sep 27)](Class/Sep_27_class/notes.md)
+- [Exception and it's types [Arithmetic,etc] (Sep 27)](Class/Sep_27_class/notes.md)
