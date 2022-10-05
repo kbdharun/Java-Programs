@@ -1,0 +1,67 @@
+import java.util.*;
+abstract class EmployeeData
+{
+ double basicPay;
+ int empid;
+ 
+ abstract void getDetails();
+ abstract double calculateSal(double DA,double HRA,double PF,double LIC);
+ abstract void display(double NetPay);
+}
+class Employee extends EmployeeData
+{
+ String designation;
+
+ Employee()
+ {
+ }
+ Employee(String designation,double basicPay,int empid)
+ {
+  this.designation=designation;
+  this.basicPay=basicPay;
+  this.empid=empid;
+ }
+ void getDetails()
+ {
+  Scanner sc=new Scanner(System.in);
+  System.out.println("Enter designation");
+  designation=sc.next();
+  System.out.println("Enter basic pay");
+  basicPay=sc.nextDouble();
+  System.out.println("Enter Employee id");
+  empid=sc.nextInt();
+ }
+ double calculateSal(double DA,double HRA,double PF,double LIC)
+ {
+  double grossPay,netPay;
+  grossPay=basicPay+DA+HRA;
+  netPay=grossPay-PF-LIC;
+  return netPay;
+ }
+ void display(double NetPay)
+ {
+  System.out.println("Employee id-"+empid);
+  System.out.println("Designation-"+designation);
+  System.out.println("NetPay-"+NetPay);
+ }
+}
+class EmployeeDemo
+{
+public static void main(String args[])
+{
+ final double DA=0.2;
+ final double HRA=0.3;
+ final double PF=0.2;
+ final double LIC=0.1;
+ 
+ double netPay;
+ Employee e[]=new Employee[3];
+ for(int i=0;i<3;i++)
+ {
+  e[i]=new Employee();
+  e[i].getDetails();
+  netPay=e[i].calculateSal(DA,HRA,PF,LIC);
+  e[i].display(netPay);
+ }
+}
+}

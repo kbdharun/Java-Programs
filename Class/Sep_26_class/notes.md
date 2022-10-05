@@ -18,7 +18,7 @@
 ## Commands
 
 - `javap java.lang.Throwable` displays the exceptions available in java.
-- `javap java.lang.Thread` diplays the exceptions and whether it is interrupted (check) or not.
+- `javap java.lang.Thread` displays the exceptions and whether it is interrupted (check) or not.
 
 ## Exception
 

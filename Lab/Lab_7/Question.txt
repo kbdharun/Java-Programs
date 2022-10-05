@@ -1,0 +1,27 @@
+User defined Chained Exception
+
+=============================
+
+Create an exception class called InvalidOperatorException with 1 datamember 
+of type character with 1 parameter constructor and overridden 2 string function.
+
+(Arithmetic Expression other than +,-,*,/,| must give an Exception)
+
+Define another exception class named OperationFailedExeption with 2 overloaded
+ constructor
+ with 1 constructor with parameter character and another constructor with
+  2 parameters 1st parameter of type string and 2nd type of parameter throwable.
+
+[(Cause for reason for operation failed exception is invalid operator exception)
+
+Implement this using chained exception (init method)]
+
++-*/% else OperatorFailedException
+e.initCause()
+e.getCause()
+
+2 no operator
+
+in main => 2 string nos -> passIn method converting , 
+            operator
+        

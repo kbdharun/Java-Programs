@@ -1,0 +1,96 @@
+abstract class Account{
+ int accid;
+ int cusid;
+ Account(int accid ,int cusid){
+  this.accid=accid;
+  this.cusid=cusid;
+ }
+ abstract int deposit();
+ abstract int withdraw();
+}
+import java.util.Scanner;
+class SavingsAccount extends Account{
+ double balance;
+ SavingsAccount(int accid, int cusid,double balance){
+  super(accid,cusid);
+  this.balance=balance;
+ }
+ int deposit(){
+   if(accid>5000 && accid<9999){
+    System.out.println("Enter the amount to be deposited:");
+    Scanner in = new Scanner(System.in);
+    double amt=in.nextDouble();
+    balance += amt;
+    System.out.println("New balance: " + balance);
+    return (1);
+   }
+   else{
+    return (-1);
+   }
+ }
+ int withdraw(){
+   if(accid>5000 && accid<9999 ){
+    System.out.println("Enter the amount to be withdrawn:");
+    Scanner in = new Scanner(System.in);
+    double amt=in.nextDouble();
+    if(amt<=balance){
+     balance -= amt;
+     System.out.println("New balance: " + balance);
+     return (1);
+    }
+    else{
+     System.out.println("Insufficient balance!!");
+    return (2);
+    }
+   }
+   else{
+     return (-1);
+  }
+ }
+}
+import java.util.Scanner;
+class BankDemo{
+  public static void main(String args[]){
+   Scanner in = new Scanner(System.in);
+   for(int i=0;i<5;i++){
+   System.out.println("Enter account id,customer id,balance");
+   int accid =in.nextInt();
+   int cusid =in.nextInt();
+   double balance = in.nextDouble();
+   SavingsAccount s= new SavingsAccount(accid,cusid,balance);
+   int ans;
+   int ch;
+   do{
+      System.out.println("1. deposit 2.Withdraw 3.Exit");
+      ch=in.nextInt();
+      switch(ch){
+       case 1:
+         ans=s.deposit();
+         if(ans==1){
+          System.out.println("Deposited Successfully.");
+         }
+         else{
+          System.out.println("Account number doesn't exist..");
+         }
+         break;
+      case 2:
+         ans=s.withdraw();
+         if(ans==1){
+          System.out.println("Withdrawed Successfully.");
+         }
+         else if(ans == 2){
+         }
+         else{
+          System.out.println("Account number doesn't exist..");
+         }
+         break;
+    case 3:
+       System.out.println("Thank You");
+       break;
+    default:
+       System.out.println("Invalid choice");
+   }
+  }while(ch!=3);
+}
+}
+}
