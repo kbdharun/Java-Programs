@@ -19,3 +19,4 @@ This repository contains Java programs that I work out in class along with my le
 - [Exception and it's types [throw] (Sep 30)](Class/Sep_30_class/notes.md)
 - [Multi Threading [Introduction] (Oct 07)](Class/Oct_07_class/notes.md)
 - [Multi Threading [Runnable] (Oct 08)](Class/Oct_08_class/notes.md)
+- [Thread Synchronization](Class/Oct_10_class/notes.md)
