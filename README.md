@@ -20,3 +20,4 @@ This repository contains Java programs that I work out in class along with my le
 - [Multi Threading [Introduction] (Oct 07)](Class/Oct_07_class/notes.md)
 - [Multi Threading [Runnable] (Oct 08)](Class/Oct_08_class/notes.md)
 - [Thread Synchronization (Oct 10)](Class/Oct_10_class/notes.md)
+- [Interthread Communication (Oct 14)](Class/Oct_14_class/notes.md)
