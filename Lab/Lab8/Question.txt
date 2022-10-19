@@ -1,0 +1,93 @@
+/*Create a class called queue with function insert() and delete() synchronised Queue object shared by more than 1 thread.
+
+Create a class called queue which has an array of integers
+• Front and rear position values to represent the front and rear of the queue, and two Boolean flags
+full and empty.
+• Implement two synchronized methods get and put*/
+
+class Queue{
+int front;
+int rear;
+int queueList[];
+boolean full;
+boolean empty;
+
+Queue(){
+	front=rear=-1;
+	queueList = new int[10];
+	full = false;
+	empty = true;
+}
+
+void fullQueue(){
+	if(rear == 9)
+		full = true;
+	else
+		full = false;
+}
+
+void emptyQueue(){
+	if(rear==-1)
+		empty = true;
+	else
+		empty = false;
+}
+
+void insert(int ele){
+fullQueue();
+	if(full == true)
+		System.out.println("Sorry! Queue full");
+	else{
+		queueList[++rear] = ele;
+		if(rear==0)
+			front++;
+	}
+}
+
+int delete(){
+emptyQueue();
+	if(empty == true)
+		return -1;
+	else{
+		int dataOut = queueList[front++];
+		return dataOut;
+	}
+}
+
+void display(){
+while(empty == false){
+			System.out.print(delete() + " ");
+			emptyQueue();
+		}
+		System.out.println("");
+	}
+}
+
+class TestQueue implements Runnable{
+	Thread t;
+	Queue qObj;
+	TestQueue(Queue qObj){
+	this.qObj = qObj;
+	t = new Thread(this);
+}
+
+public void run(){
+	synchronized(qObj){
+		qObj.insert(5);
+		qObj.display();
+		qObj.display();
+		qObj.delete();
+		qObj.display();
+		}
+	}
+}
+
+class TestSynchronizationQueue{
+	public static void main(String args[]){
+	Queue qObj = new Queue();
+	TestQueue t1 = new TestQueue(qObj);
+	TestQueue t2 = new TestQueue(qObj);
+	t1.t.start();
+	t2.t.start();
+	}
+}

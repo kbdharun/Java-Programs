@@ -1,0 +1,9 @@
+/*
+Create a class called EBBill with datamembers as house number, name of the house owner, starting energy meter reading, ending energy meter reading and bill amount. Add two functions named savedData and calculateBill. savedData function is used to save EBBill object onto the persistent memory using Serializable stream, object input stream and object output stream. Write a program to store EBBill for 4 house.
+CalcBill function witll calculate amount to be paid to the Electricity Board by considering the following rules:
+	Amt = 0, till 100 units
+	0.75	 101-200 units
+	1.50     200-300 units
+	3	 300 and above
+
+*/
