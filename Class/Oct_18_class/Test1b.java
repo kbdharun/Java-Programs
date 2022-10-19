@@ -4,6 +4,7 @@ class Student implements Serializable{
         String name;
         Student(int rno, String name){
             this.rno=rno;
+            this.name=name;
         }
         public String toString(){
             return "rno:"+rno+" name:"+name;
@@ -12,11 +13,11 @@ class Student implements Serializable{
 
 class Test1b{
     public static void main(String args[])throws Exception{
-        File f=new File("student.txt");
+        File f=new File("student1.txt");
         ObjectOutputStream out=new ObjectOutputStream(new FileOutputStream(f));
-        Student s=new Student(100,"Ravi");
+        Student s=new Student(0,"Ravi");
         out.writeObject(s);
-        s=new Student(101, "Raj");
+        s=new Student(1, "Raj");
         out.writeObject(s);
         out.close();
 
