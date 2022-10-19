@@ -22,3 +22,4 @@ This repository contains Java programs that I work out in class along with my le
 - [Thread Synchronization (Oct 10)](Class/Oct_10_class/notes.md)
 - [Interthread Communication (Oct 14)](Class/Oct_14_class/notes.md)
 - [`java.io` Package (Oct 17)](Class/Oct_17_class/notes.md)
+- [FileInputStream and FileOutputStream (Oct 18)](Class/Oct_18_class/notes.md)
