@@ -24,3 +24,4 @@ This repository contains Java programs that I work out in class along with my le
 - [`java.io` Package (Oct 17)](Class/Oct_17_class/notes.md)
 - [FileInputStream and FileOutputStream (Oct 18)](Class/Oct_18_class/notes.md)
 - [FileReader and Extending a Thread (Oct 21)](Class/Oct_21_class/notes.md)
+- [Collection API (Oct 28)](Class/Oct_28_class/notes.md)
