@@ -25,4 +25,5 @@ This repository contains Java programs that I work out in class along with my le
 - [FileInputStream and FileOutputStream (Oct 18)](Class/Oct_18_class/notes.md)
 - [FileReader and Extending a Thread (Oct 21)](Class/Oct_21_class/notes.md)
 - [Collection API (Oct 28)](Class/Oct_28_class/notes.md)
-- [ Collection API (List, Set, Map) (Nov 4)](Class/Nov_04_class/notes.md)
+- [ Collection API (List,Set,Map) (Nov 4)](Class/Nov_04_class/notes.md)
+- [ Collection API (Map, Comparator) (Nov 7)](Class/Nov_07_class/notes.md)
