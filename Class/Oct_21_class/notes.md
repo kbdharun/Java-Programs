@@ -84,7 +84,7 @@ class Test{
 }
 ```
 
-### Program 2
+### Program 2:-
 
 ```java
 class NewThread extends Thread{
