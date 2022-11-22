@@ -92,7 +92,8 @@ class ColorFrame extends JFrame implements AdjustmentListener{
 
 ### Program 3 (To try):-
 
-- Question: Contacts Management
+```text
+Question: Contacts Management
 Create a swing GUI application to manage contact information.
 Create a class Contact with details like Name, mobile number, type of contact(family,
 official).
@@ -123,7 +124,7 @@ Display All Contacts – call the display contacts method from contact managemen
 class and get the list of contacts. Display all contacts in a text area by iterating the
 array list. (Concatenate all contact details into one single string and set this string
 to text area).
-
+```
 
 ### Scrollbar Package (*disassembeled*)
 
