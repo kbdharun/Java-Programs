@@ -343,13 +343,12 @@ class DemoFrame extends Frame implements MouseListener,MouseMotionListener, Item
  }
  public void mouseMoved(MouseEvent me){}
 
- public static void main(String args[]){
-  new DemoFrame();
- }
+     public static void main(String args[]){
+    new DemoFrame();
+ }  
 }
 ```
-
+  
 - Output:-
 
-![Output of DemoFrame](assets/DemoFrame.webm)
-
+[DemoFrame.webm](https://user-images.githubusercontent.com/26346867/203282074-e5e83493-4af2-41f5-a829-932e1b3efb57.webm)
