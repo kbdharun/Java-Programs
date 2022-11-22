@@ -46,6 +46,8 @@ class ColorFrame extends Frame implements AdjustmentListener{
 
 - Output:-
 
+[1.webm](https://user-images.githubusercontent.com/26346867/203294391-88074e92-fea5-44bf-bea0-fb8ed8d5fa9e.webm)
+                                                                                                            
 ### Program 2: ColorFrame using Swing
 
 ```java
@@ -81,11 +83,12 @@ class ColorFrame extends JFrame implements AdjustmentListener{
         }
         public static void main(String args[]) {
             new ColorFrame();
-        }
+        }       
 }
-```
-
+```     
 - Output:-
+             
+[2.webm](https://user-images.githubusercontent.com/26346867/203294578-03377be2-1322-492e-9e55-74e62ec65dd6.webm)
 
 ### Program 3 (To try):-
 
