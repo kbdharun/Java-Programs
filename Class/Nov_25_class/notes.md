@@ -52,10 +52,6 @@ public interface java.awt.event.KeyListener extends java.util.EventListener {
 }
 ```
 
-## General Notes
-
-- Placeholder
-
 ## Programs
 
 ### Program 1: Using WindowListener to close a program
