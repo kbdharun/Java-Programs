@@ -1,4 +1,4 @@
-# Notes (November 26,2022)
+# Notes (November 26, 2022)
 
 ## Topics
 
@@ -6,8 +6,8 @@
 
 ## General Notes
 
-- Types of menu: Pull down menu item/Standard Menu item and pop-up menu item.
-- Swing components are look and feel components (By default, Color is grey).
+- Types of menu items: Pull down menu item/Standard Menu item and pop-up menu item.
+- Swing components are look and feel components (By default, the Color is grey).
 
 ## MenuBar class (*disassembeled*)
 
@@ -266,3 +266,5 @@ class EditFrame implements ItemListener{
 ```
 
 - Output:-
+
+[out.webm](https://user-images.githubusercontent.com/26346867/204096757-d2145a4c-9087-4da6-9724-0a13b71c1140.webm)
