@@ -1,4 +1,4 @@
-# Notes (November 07,2022)
+# Notes (November 07, 2022)
 
 ## Topics
 
@@ -8,13 +8,13 @@
 
 - `<Key,value>`
 - No duplicate key (But if you want to duplicate then there is a class weakset)
-- Key is a unique identity for an object. It can be of any value but it is mostly an integer and sometimes string.
-- Iterator can't be used with Map. Data member that allows Sequntial access allows Iterator.
-- All collection classes are dynamic array (memory can be expanded or reduced) [By default initial memory is 16 bit].
+- Key is a unique identity for an object. It can be of any value but it is mostly an integer and sometimes a string.
+- Iterator can't be used with Map. Data member that allows Sequential access allows Iterator.
+- All collection classes are dynamic arrays (memory can be expanded or reduced) [By default initial memory is 16-bit].
 
 ## Map
 
-- HashMap -> Map with a set of key value path. Hash value/code to be computed based on key not value as it allows duplicates. HashMap is unsorted.
+- HashMap -> Map with a set of the key-value path. Hash value/code is to be computed based on the key, not the value as it allows duplicates. HashMap is unsorted.
     - `HashMap`<String,> hm= new HashMap<>();
 - TreeMap -> It is sorted based on key.
 - LinkedHashMap

@@ -1,17 +1,17 @@
-# Notes (September 13,2022)
+# Notes (September 13, 2022)
 
 ## Topics
 
-- Dynamic Type Inference with Multi Level Inheritance
+- Dynamic Type Inference with Multi-Level Inheritance
 
 ## General Notes
 
-- If we don't know a primitve or user defined data type we use where.
+- If we don't know a primitive or user-defined data type we use where.
 - Java allows Dynamic type casting.
 
-### Dynamic Type Inference with Multi Level Inheritance
+### Dynamic Type Inference with Multi-Level Inheritance
 
-- Rule: Base class reference is compatible with derived class object.
+- Rule: Base class reference is compatible with the derived class object.
 - Property of Class A --Inherited->B(Direct Derived class)-->C (Indirect derived class).
 - A's reference is compatible with Direct and Indirect derived classes.
 - In DMD and here use anonymous nameless obj class inference.

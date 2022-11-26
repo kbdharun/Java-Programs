@@ -1,4 +1,4 @@
-# Notes (September 16,2022)
+# Notes (September 16, 2022)
 
 ## Topics
 
@@ -6,20 +6,20 @@
 
 ## General Notes
 
-- Naming Collision conflict is a serious issue in Java i.e happens when multiple people are working with same classes,etc on a project. This can be overcome using Packages.
-- Base class in one package and derived class in different package is possible.
+- Naming Collision conflict is a serious issue in Java i.e happens when multiple people are working with the same classes, etc on a project. This can be overcome using Packages.
+- Base class in one package and derived class in the different package is possible.
 - Avoid `*` while importing packages as it will increase the compile time. But it can be used when we don't know the package.
-- Protected is not allowed for class.
+- Protected is not allowed for the class.
 
 ## Commands
 
-- When using `javac -d . {{file.java}}` this command the PWD is searched for the source file and then it is compiled and is present under a new `p1` folder. Here `.` searchs for the source file in all directories in the physical or network location.
+- When using `javac -d . {{file.java}}` this command the PWD is searched for the source file and then it is compiled and is present under a new `p1` folder. Here `.` search for the source file in all directories in the physical or network location.
 - This command `dir *.class` lists all `.class` files.
 
 ## Package & Import
 
 - Problem -> Naming collision conflict ; Solved using -> Packages.
-- If package isn't used then `.class` file is created in PWD. When we use Packages `.class` file is created under a sub directory.
+- If a package isn't used then the `.class` file is created in PWD. When we use Packages `.class` file is created under a subdirectory.
 
 ```text
 Syntax:

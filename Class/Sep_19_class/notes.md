@@ -1,4 +1,4 @@
-# Notes (September 19,2022)
+# Notes (September 19, 2022)
 
 ## Topics
 
@@ -7,30 +7,30 @@
 
 ## General Notes
 
-- Java provides ability to make it to abstract when a specification is unknown.
+- Java provides the ability to make it abstract when a specification is unknown.
 - Abstract delays the definition of function in abstract class.
-- Inheritance with private access specifier is not allowed in interface.
+- Inheritance with private access specifier is not allowed in the interface.
 
 ## Interface
 
 - Interface is a **complete abstract class**.
-- Multiple inheritance is possible in Java with Interface only.
-- It is a combination of final static constant and member declaration.
-- We need not create a seperate (dummy) class to implement interface.
-- Datamember, function shouldn't be precided with protected or private.
-- Multiple inheritance can be integrated in single class using Implements.
-- It has a addon functionality called adaptor class. The comipler gives the remaining defintion in this class.
+- Multiple inheritances are possible in Java with Interface only.
+- It is a combination of the final static constant and member declaration.
+- We need not create a separate (dummy) class to implement the interface.
+- Data member, the function shouldn't be preceded with protected or private.
+- Multiple inheritances can be integrated into a single class using Implements.
+- It has an addon functionality called adaptor class. The compiler gives the remaining definition in this class.
 
 - Rules for declaring interface:
 
-1. All datamembers are final and static. (Don't )
-2. All methods becomes abstract by default.
+1. All data members are final and static. (Don't )
+2. All methods become abstract by default.
 
-- Rules for implementing interface:
+- Rules for implementing the interface:
 
 1. Forcefully define all the methods in the interface. If not defined, the class becomes an abstract class.
 2. Interface with private or protected access specifier is not allowed.
-3. Don't pack too many definitions in interface. Else we use interface with extends keyword.
+3. Don't pack too many definitions in the interface. Else we use an interface with the extends keyword.
 
 ```java
 class A{

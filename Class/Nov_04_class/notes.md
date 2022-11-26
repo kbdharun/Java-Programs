@@ -1,4 +1,4 @@
-# Notes (November 04,2022)
+# Notes (November 04, 2022)
 
 ## Topics
 
@@ -7,19 +7,19 @@
 ## General Notes
 
 - List is consecutive memory.
-- Bucket - Hash like data structure.
-- In set, list of objects is never stored in consecutive order and rather in hash.
-- In Map-Reduce data structure, element is stored as a `<key,value>` pair.
+- Bucket - Hash-like data structure.
+- In a set, a list of objects is never stored in consecutive order and rather in the hash.
+- In the Map-Reduce data structure, an element is stored as a `<key,value>` pair.
 - ArrayList is faster than LinkedList and retrieval is faster.
   
 - ArrayList,LinkedList-Iterator, ListIterator(updation),comparator
-- HashSet, TreeSet, LinedTreeSet-Iterator,Comparator
-- HashMap, TreeMap, LinkedHashMap-Iterator,Comparator*.
+- HashSet, TreeSet, LinedTreeSet-Iterator, Comparator
+- HashMap, TreeMap, LinkedHashMap-Iterator, Comparator*.
 
 ## List
 
 1. ArrayList (Options available-add,remove)
-2. LinkedList (Options available-add,addFirst,addLast,addPrevios,remove,removeLast,removeFirst)
+2. LinkedList (Options available-add, addFirst , addLast, addPrevios ,remove ,removeLast ,removeFirst)
 
 ## Set
 
@@ -333,5 +333,5 @@ Darth	65802409
 
 ### To try:-
 
-- Create employee class with empname, id and basic_name as data members compute DA(Dearness Allowance),HRA, DF, NetPay,GrossPay, DA is 10% of Basic Pay, HRA % of Bpay, Gross pay = Basic pay+DA+HRA. Create ArrayList to store 5 employee objects compute pay slip for each employee, Display the list based on the sorted order of Basic/Net pay. Use ArrayList, Iterator, Comparator.
+- Create employee class with empname, id and basic_name as data members compute DA(Dearness Allowance),HRA, DF, NetPay, GrossPay, DA is 10% of Basic Pay, HRA % of Bpay, Gross pay = Basic pay+DA+HRA. Create ArrayList to store 5 employee objects compute pay slips for each employee, and Display the list based on the sorted order of Basic/Net pay. Use ArrayList, Iterator, and Comparator.
 

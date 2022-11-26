@@ -1,4 +1,4 @@
-# Notes (September 27,2022)
+# Notes (September 27, 2022)
 
 ## Topics
 
@@ -7,19 +7,19 @@
 
 ## General Notes
 
-- Try without catch isn't possible similarly catch without try block isn't possible.
+- Try without a catch isn't possible similarly catch without a try block isn't possible.
 
 ```java
 try{
-// set of statement/codeblocks that are prone to error of exception will be kept here.
+// set of statement/code blocks that are prone to error of exception will be kept here.
 }
 catch{
     //handler
 }
 ```
 
-- Handler is a meaninful output to enduser.
-- If there is no try catch block JVM will handle it. But when JVM handles an exception the control doesn't come back to program.
+- Handler is a meaningful output to the enduser.
+- If there is no try-catch block JVM will handle it. But when JVM handles an exception the control doesn't come back to the program.
 - If we don't know the exception we can use a Generic Handler.
 - Discovery: Catch inside try is allowed.
 

@@ -2,7 +2,7 @@
 
 ## Topics
 
-- Multi Threading (Runnable)
+- Multi-Threading (Runnable)
 
 ## Methods for creating a thread
 

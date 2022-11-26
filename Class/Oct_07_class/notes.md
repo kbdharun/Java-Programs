@@ -6,26 +6,26 @@
 
 ## General Notes
 
-- `Java` is the only high level language that provides API and has support for Multithreading.
-- `isAlive` function returns true or false (bool) for active/dead state in threads.
+- `Java` is the only high-level language that provides API and has support for Multithreading.
+- `isAlive` function returns true or false (bool) for active/dead states in threads.
 
 ## Multiprogramming
 
-- Context switching is costly in terms of computing and memory requirement.
+- Context switching is costly in terms of computing and memory requirements.
 
 ## Multitasking
 
-- Interleaved excelution of more than 1 task.
-- It is a heavy weight software.
-- Context switching is necessary for multi tasking.
+- Interleaved execution of more than 1 task.
+- It is heavy-weight software.
+- Context switching is necessary for multi-tasking.
 
 ## Multithreading
 
-- Light Weight, Thread based overlapped excecution.
+- Light Weight, Thread based overlapped execution.
 - No need for Context switching.
 - Thread means no execution point.
-- Whenever we use _Multitasking,Multiprogramming and Multithreading_ is used there is a PROBLEM **Dependency between statement**. SOLUTION is to execute it in a synchornised manner or **Synchronized thread**.
-- Interthread communication and synchorinised communication.
+- Whenever we use _Multitasking,Multiprogramming and Multithreading_ is used there is a PROBLEM **Dependency between statement**. The SOLUTION is to execute it in a synchronized manner or **Synchronized thread**.
+- Interthread communication and synchronized communication.
 
 ### Packages
 

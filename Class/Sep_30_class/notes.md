@@ -1,4 +1,4 @@
-# Notes (September 30,2022)
+# Notes (September 30, 2022)
 
 ## Topics
 
@@ -25,7 +25,7 @@ catch(NullPointerException | ArithemticException e){
 ```
 
 - `main()==>f2() rethrow`
-- Don't use `throw` keyword at the beginning as it makes the remaining parts of a program unreachable.
+- Don't use the `throw` keyword at the beginning as it makes the remaining parts of a program unreachable.
 
 ## Throw (Exception)
 

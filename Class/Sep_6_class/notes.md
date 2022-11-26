@@ -1,4 +1,4 @@
-# Notes (Sep 6,2022)
+# Notes (Sep 6, 2022)
 
 ## Topics
 
@@ -9,9 +9,9 @@
 ## General Notes
 
 - Class can be prefixed with static.
-- In C,C++ we can define function after main, and we will get compilation error. Similarly in Java, it considers it as an undefined datamember.
+- In C, and C++ we can define function after main, and we will get a compilation error. Similarly in Java, it considers it as an undefined data member.
 - Abstract class:-
-- Memory isn't allocated in class definition unless *static datamember* as class is a blueprint. And memory can only be allocated by Object.
+- Memory isn't allocated in class definition unless *static data member* as class is a blueprint. And memory can only be allocated by an Object.
 
 ### Nested class
 
@@ -30,14 +30,14 @@
 
 ### Inner class
 
-- Inner class can be static, and it can only access Static datamember and static member function of outer class.
+- Inner class can be static, and it can only access the Static data member and static member function of the outer class.
 - It is a **non-static nested class** or *static inner class*.
 
 ### Anonymous object and class
 
-- Object created without name.
+- Object created without a name.
 - Anonymous object is very commonly used in object classes.
-- *Anonymous inner class* is class created without name.
+- *Anonymous inner class* is a class created without a name.
 
 ```java
 \*Sample*\
@@ -55,7 +55,7 @@ class StudentDemo{
 
 ### Abstract class
 
-- In abstract class we no need to create IIB block.
+- In abstract class, we no need to create an IIB block.
 
 ### Program 1: Invoking object in Outer class
 

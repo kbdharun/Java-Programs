@@ -1,4 +1,4 @@
-# Notes (October 17,2022)
+# Notes (October 17, 2022)
 
 ## Topics
 
@@ -13,7 +13,7 @@
 
 - **Byte-oriented** [8 bit]--> 11001100
 
-- In JDK 1.1 version a new type of stream was introduced namely **character-oriented** (unicode).
+- In JDK 1.1 version a new type of stream was introduced namely **character-oriented** (Unicode).
 
 ### Base class for Byte-oriented Stream
 

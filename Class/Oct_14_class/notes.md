@@ -1,4 +1,4 @@
-# Notes (October 14,2022)
+# Notes (October 14, 2022)
 
 ## Topics
 
@@ -6,11 +6,11 @@
 
 ## General Notes
 
-- `boolean semaphore` is used in Interthread communication for a common signaling between 2 threads.
-- `sleep` will make the CPU into the coding state. `wait()` will wait for the CPu until event state. `notify()` notifies it.
+- `boolean semaphore` is used in Interthread communication for common signalling between 2 threads.
+- `sleep` will make the CPU into the coding state. `wait()` will wait for the CPU until the event state. `notify()` notifies it.
 - Deadlock is a special type of error that you need to avoid that relates specifically to
 multitasking.
-- To prevent deadlock condition we need timed loop.
+- To prevent deadlock conditions we need a timed loop.
 
 ## Interthread Communication
 

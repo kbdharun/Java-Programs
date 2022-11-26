@@ -1,32 +1,32 @@
-# Notes (Sep 5,2022)
+# Notes (Sep 5, 2022)
 
 ## Topics
 
 - Static
 - IIB
-- Final Datamember
+- Final Data member
 
 ## General Notes
 
-- If a compiler finds an error then there is an error in code, if error is prevent in jvm(java) there will be an exception.
+- If a compiler finds an error then there is a code error, if an error is present in JVM(java) there will be an exception.
 
 ### Static
 
 - Static block
-- Static datamember
+- Static data member
 - Static member function
 
 ### IIB
 
-- **IIB** - **I**nstance **I**nitialization block.(Data member to be intialized with specific value.)
+- **IIB** - **I**nstance **I**nitialization block.(Data member to be initialised with a specific value.)
 - IIB is created before a constructor, *before object creation a constructor must be created. (Same applies for default const)*.
-- Only one compound block is allowed for IIB block.
+- Only one compound block is allowed for the IIB block.
 
-### Final datamember
+### Final data member
 
 - It is used to create a symbolic constant.
-- Final datamember --> constant (Data/value can't be changed if datamember is precided by final).
-- Final memberfunction --> Prevents overriding.
+- Final data member --> constant (Data/value can't be changed if a data member is preceded by final).
+- Final member function --> Prevents overriding.
 - Final class --> No derived
 
 ## Programs
@@ -66,7 +66,7 @@ reg..14
 ## Program 2: Using static
 
 ```java
-/* Java program using IIB block and static datamember*/
+/* Java program using IIB block and static data member*/
 
 class Student{
 	int regno;
@@ -195,4 +195,4 @@ class avg..65
 
 ## Programs to try
 
-- *Compute array of 3 distance using static datamember*.
+- *Compute array of 3 distances using static data member*.

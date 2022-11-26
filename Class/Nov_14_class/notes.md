@@ -1,35 +1,35 @@
-# Notes (November 14,2022)
+# Notes (November 14, 2022)
 
 ## Topics
 
-- Developing GUI based programs
+- Developing GUI-based programs
 
 ## General Notes
 
-- In console based application, is sequential based on Threads. Whereas GUI, isn't sequential based programming.
-- Input Output interaction is through the User in GUI, unlike console based interaction.
+- In console-based application, is sequential based on Threads. Whereas GUI isn't sequential-based programming.
+- Input Output interaction is through the User in GUI, unlike console-based interaction.
 
 ## GUI
 
 - Abbreviation(GUI): **G**raphical **U**ser **I**nterface
-- It provides elegant way for interacting with program.
-- Java --> User interface ,  Logic
-- Implementation must have seperate User interface and logic this kind of event handing is known as *Delegation Event Model*.
+- It provides an elegant way for interacting with the program.
+- Java --> User interface,  Logic
+- Implementation must have a separate User interface and logic this kind of event handling is known as *the Delegation Event Model*.
 - Delegation Event Model is used by Java developers to design GUI.
 - Window is a container for the component.
-- Button should be inside a frame or window using container.
+- The button should be inside a frame or window using a container.
 - Main isn't required for web-based and mobile-based applications.
-- Naming: First 3 character must be precided with type.
-- For example all button classes must be precided by `btn`.
-- Layout- The way in which a control should be arranged.
+- Naming: First 3 characters must be preceded by type.
+- For example, all button classes must be preceded by `btn`.
+- Layout- The way in which control should be arranged.
 - Container --> Panel, Frame, Window
-  - Panel is a container like canvas (It doesn't have any status bar)
-  - Panel doesn't have menu whereas frame has it.
+  - Panel is a container-like canvas (It doesn't have any status bar)
+  - Panel doesn't have a menu whereas the frame has it.
 
 ### Delegation Event Model
 
 - **Delegation Event Model (Elements)**
-  - Event (Action on any user interface [Mostly by user, but sometimes it is Built-In Action i.e Timer Object])
+  - Event (Action on any user interface [Mostly by a user, but sometimes it is Built-In Action i.e Timer Object])
   - EventSource (Object which triggers the event)
   - EventListener (Contains the logic of what to do when an event occurs)
 

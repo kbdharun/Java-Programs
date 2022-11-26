@@ -1,4 +1,4 @@
-# Notes (September 9,2022)
+# Notes (September 9, 2022)
 
 ## Topics
 
@@ -8,12 +8,12 @@
 
 ## General Notes
 
-- Interface is completely abstract class.
-- Base class constructor is called first when using super keyword.
-- Dot [.] is the only allowed member axis datamember.
+- Interface is a completely abstract class.
+- Base class constructor is called first when using the super keyword.
+- Dot [.] is the only allowed member axis data member.
 - Datatype mismatch is allowed in overloading.
 - Overloading is a way of implementing static polymorphism, whereas overriding is a way of implementing dynamic polymorphism.
-- super.memfunc resolves conflict of base class datamember and dervived class
+- super.memfunc resolves the conflict of base class data member and derived class
 
 ### Reusability
 
@@ -41,7 +41,7 @@ class <subclass> extends <baseclass>{
 ```
 
 - Extends, super <-- keyword
-- Example: A->B (A,B has disp functions);when using Inheritance data will be allocated for A in B and the data members are shared.
+- Example: A->B (A,B has disp functions); when using Inheritance data will be allocated for A in B and the data members are shared.
 
 ### Access Specifiers
 
@@ -51,9 +51,9 @@ class <subclass> extends <baseclass>{
 
 ### Use of super keyword:
 
-1. To invoke/call base class constructor.
-2. To access overriden data member.
-3. To call overriden member function.
+1. To invoke/call the base class constructor.
+2. To access overridden data members.
+3. To call overridden member function.
 
 ### Overriding and Overloading
 

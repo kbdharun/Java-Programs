@@ -1,4 +1,4 @@
-# Notes (September 26,2022)
+# Notes (September 26, 2022)
 
 ## Topics
 
@@ -8,11 +8,11 @@
 
 - Compiler finds all errors like type mismatch errors, etc during runtime.
 - Segmentation core dump is a runtime error.
-- Some common errors are core dump, index out of bound,etc these exceptions are handled by deafult handler.
-- Interrupted exception is handled by compiler. If I don't know the exception I can give interrupted exception.
-- Most common checked exception is Interrupted excpetion which is available in `java.lang` package.
-- If we don't know the derived class name we can use the base class object reference. If we don't know the exact name of checked exception we can just give `throws Exception`.
-- All user defined exception comes under **unchecked** exception.
+- Some common errors are core dump, index out of bound, etc these exceptions are handled by default handler.
+- Interrupted exception is handled by the compiler. If I don't know the exception I can give an interrupted exception.
+- Most common checked exception is Interrupted exception which is available in `java.lang` package.
+- If we don't know the derived class name we can use the base class object reference. If we don't know the exact name of the checked exception we can just give `throws Exception`.
+- All user-defined exception comes under **unchecked** exception.
 - **_Unchecked exceptions are exceptions which may or may not arise._**
 
 ## Commands
@@ -23,25 +23,25 @@
 ## Exception
 
 - Exception is _Unexpected_ Runtime error.
-- Segmentation core dump is a runtime error. We don't know which line causes the segmentation error as no information is provided and the program gets terminated. This can be remedied by using **Checkpoint** or error injection code which is useful for precedural language programs which use all of the settings. In java, exception handling responds back by providing a clear description ot stacktrace of the error.
-- Default exception hander is present in JVM (Java Virtual Machine).
-- Custom exception has limited visibility in C++. But here in Java, most of the class exceptions are user defined exceptions.
+- Segmentation core dump is a runtime error. We don't know which line causes the segmentation error as no information is provided and the program gets terminated. This can be remedied by using **Checkpoint** or error injection code which is useful for procedural language programs which use all of the settings. In java, exception handling responds by providing a clear description of the stack trace of the error.
+- Default exception handler is present in JVM (Java Virtual Machine).
+- Custom exception has limited visibility in C++. But here in Java, most of the class exceptions are user-defined exceptions.
 - Main class is `Throwable`
 - Throwable has 2 subclasses namely Error and Exception.
 - Throwable -> Error, Exception
-- Some common examples of fatal error Stack overflow. JVM will display the error and the program will be terminated. This type of error happen in Sockets, Database handing,etc.
+- Some common examples of fatal error Stack overflow. JVM will display the error and the program will be terminated. This type of error happens in Sockets, Database handling, etc.
 
 ```md
 # Flowchart (Types)
 
-Throwable -> Error , Exception
+Throwable -> Error, Exception
 
 Exception -> RunTimeException
 ```
 
 ### Keywords
 
-- Some keywords that define exception handling in Java are are **try, catch, finally, throw, throws**.
+- Some keywords that define exception handling in Java are **try, catch, finally, throw, throws**.
 
 ### Built-in Exceptions
 
@@ -59,7 +59,7 @@ Exception -> RunTimeException
 2. FileNotFoundException
 3. ClassCastExceptions
 
-### Program 1a: Arithmetic Exception program but without intialisation
+### Program 1a: Arithmetic Exception program but without initialization
 
 ```java
 class Test{
