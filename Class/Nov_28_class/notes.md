@@ -84,7 +84,9 @@ class EditFrame{
 
 - Output:-
 
-## Program 1b:-
+[1.webm](https://user-images.githubusercontent.com/26346867/204316060-3baa84ca-754a-4dc4-ae18-e8e3c01998a0.webm)
+
+### Program 1b:-
 
 ```java
 import javax.swing.*;
@@ -189,6 +191,11 @@ class EditFrame{
     }
 }
 ```
+
+- Output:-
+
+[out.webm](https://user-images.githubusercontent.com/26346867/204316194-b2c99c9b-4c1b-4baa-bc79-38c50df6ff26.webm)
+
 
 - To try: Clipboard using jClipboard class
 
