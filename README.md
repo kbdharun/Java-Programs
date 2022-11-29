@@ -34,7 +34,7 @@ This repository contains Java programs that I work out in class, along with my l
 - [Adapter class, Inner class and KeyListener (Nov 25)](Class/Nov_25_class/notes.md)
 - [GUI Swing MenuBar (Nov 26)](Class/Nov_26_class/notes.md)
 - [Menu Driven App (Nov 28)](Class/Nov_28_class/notes.md)
-- [JToggleButton..JRadioButton..JCheckBox (Nov 29)](Class/Nov_29_class/notes.md)
+- [JToggleButton, JRadioButton, JCheckBox (Nov 29)](Class/Nov_29_class/notes.md)
 
 ## Template
 
