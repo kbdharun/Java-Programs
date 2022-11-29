@@ -39,3 +39,7 @@ This repository contains Java programs that I work out in class, along with my l
 
 - You can view the template I use for all lectures [here](TEMPLATE.md).
 
+## Additional Programs
+
+- Additional solved programs are available in the Programs directory.
+
