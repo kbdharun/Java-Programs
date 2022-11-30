@@ -15,7 +15,7 @@
 - Base- int a; Derive- long a,b; 
 - Where, a- Base class ref, B- Derived class reference.
 - Dynamic Method Dispatch requires Inheritance.
-- The suitable inheritance type for DMD is **Hierarchial**.
+- The suitable inheritance type for DMD is **hierarchial**.
 - NOTE: We can use base class reference not base class object.
 
 ### Program 1a: Dynamic Method Dispatch (Shape)
