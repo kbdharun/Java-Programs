@@ -43,5 +43,5 @@ This repository contains Java programs that I work out in class, along with my l
 
 ## Additional Programs
 
-- Additional solved programs are available in the Programs directory.
+- Additional solved programs are available in the Programs and Lab directories.
 
