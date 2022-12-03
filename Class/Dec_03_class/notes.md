@@ -71,7 +71,7 @@ class EditFrame{
 
 - Output:-
 
-[1.webm](ttps://user-images.githubusercontent.com/26346867/205425413-1b994088-3375-4a9b-8e11-ce5a15ebf79e.webm)
+[1.webm](https://user-images.githubusercontent.com/26346867/205425413-1b994088-3375-4a9b-8e11-ce5a15ebf79e.webm)
 
 <center><video controls>
   <source src="https://user-images.githubusercontent.com/26346867/205425413-1b994088-3375-4a9b-8e11-ce5a15ebf79e.webm" type="video/webm">
