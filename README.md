@@ -36,6 +36,7 @@ This repository contains Java programs that I work out in class, along with my l
 - [Menu Driven App (Nov 28)](Class/Nov_28_class/notes.md)
 - [JToggleButton, JRadioButton, JCheckBox (Nov 29)](Class/Nov_29_class/notes.md)
 - [Multi-threading in GUI, timer object (Dec 2)](Class/Dec_02_class/notes.md)
+- [Dialog Box, Popup menu (MessageBox, InputBox) (Dec 3)](Class/Dec_03_class/notes.md
 
 ## Template
 
