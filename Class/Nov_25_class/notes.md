@@ -4,54 +4,6 @@
 
 - Adapter class, Inner class and KeyListener
 
-## WindowListener class (*disassembeled*)
-
-```bash
-$ javap java.awt.event.WindowListener
-Compiled from "WindowListener.java"
-public interface java.awt.event.WindowListener extends java.util.EventListener {
-  public abstract void windowOpened(java.awt.event.WindowEvent);
-  public abstract void windowClosing(java.awt.event.WindowEvent);
-  public abstract void windowClosed(java.awt.event.WindowEvent);
-  public abstract void windowIconified(java.awt.event.WindowEvent);
-  public abstract void windowDeiconified(java.awt.event.WindowEvent);
-  public abstract void windowActivated(java.awt.event.WindowEvent);
-  public abstract void windowDeactivated(java.awt.event.WindowEvent);
-}
-```
-
-## WindowAdapter class (*disassembeled*)
-
-```bash
-$ javap java.awt.event.WindowAdapter
-Compiled from "WindowAdapter.java"
-public abstract class java.awt.event.WindowAdapter implements java.awt.event.WindowListener,java.awt.event.WindowStateListener,java.awt.event.WindowFocusListener {
-  protected java.awt.event.WindowAdapter();
-  public void windowOpened(java.awt.event.WindowEvent);
-  public void windowClosing(java.awt.event.WindowEvent);
-  public void windowClosed(java.awt.event.WindowEvent);
-  public void windowIconified(java.awt.event.WindowEvent);
-  public void windowDeiconified(java.awt.event.WindowEvent);
-  public void windowActivated(java.awt.event.WindowEvent);
-  public void windowDeactivated(java.awt.event.WindowEvent);
-  public void windowStateChanged(java.awt.event.WindowEvent);
-  public void windowGainedFocus(java.awt.event.WindowEvent);
-  public void windowLostFocus(java.awt.event.WindowEvent);
-}
-```
-
-## KeyListener class (*disassembeled*)
-
-```bash
-javap java.awt.event.KeyListener
-Compiled from "KeyListener.java"
-public interface java.awt.event.KeyListener extends java.util.EventListener {
-  public abstract void keyTyped(java.awt.event.KeyEvent);
-  public abstract void keyPressed(java.awt.event.KeyEvent);
-  public abstract void keyReleased(java.awt.event.KeyEvent);
-}
-```
-
 ## Programs
 
 ### Program 1: Using WindowListener to close a program
@@ -87,6 +39,11 @@ class DemoFrame extends Frame implements WindowListener{
 - Output:-
 
 [out1.webm](https://user-images.githubusercontent.com/26346867/203906716-8f8421c7-e58e-4314-a4e2-d6406a050a5a.webm)
+
+<center><video controls>
+  <source src="https://user-images.githubusercontent.com/26346867/203906716-8f8421c7-e58e-4314-a4e2-d6406a050a5a.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video></center>
 
 ### Program 2:-
 
@@ -237,3 +194,57 @@ class DemoFrame extends Frame{
 
 [out5.webm](https://user-images.githubusercontent.com/26346867/203906666-2a4cce16-4c7f-4276-943d-a15089e59150.webm)
 
+<center><video controls>
+  <source src="https://user-images.githubusercontent.com/26346867/203906666-2a4cce16-4c7f-4276-943d-a15089e59150.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video></center>
+
+## References
+
+### WindowListener class (*disassembeled*)
+
+```bash
+$ javap java.awt.event.WindowListener
+Compiled from "WindowListener.java"
+public interface java.awt.event.WindowListener extends java.util.EventListener {
+  public abstract void windowOpened(java.awt.event.WindowEvent);
+  public abstract void windowClosing(java.awt.event.WindowEvent);
+  public abstract void windowClosed(java.awt.event.WindowEvent);
+  public abstract void windowIconified(java.awt.event.WindowEvent);
+  public abstract void windowDeiconified(java.awt.event.WindowEvent);
+  public abstract void windowActivated(java.awt.event.WindowEvent);
+  public abstract void windowDeactivated(java.awt.event.WindowEvent);
+}
+```
+
+## WindowAdapter class (*disassembeled*)
+
+```bash
+$ javap java.awt.event.WindowAdapter
+Compiled from "WindowAdapter.java"
+public abstract class java.awt.event.WindowAdapter implements java.awt.event.WindowListener,java.awt.event.WindowStateListener,java.awt.event.WindowFocusListener {
+  protected java.awt.event.WindowAdapter();
+  public void windowOpened(java.awt.event.WindowEvent);
+  public void windowClosing(java.awt.event.WindowEvent);
+  public void windowClosed(java.awt.event.WindowEvent);
+  public void windowIconified(java.awt.event.WindowEvent);
+  public void windowDeiconified(java.awt.event.WindowEvent);
+  public void windowActivated(java.awt.event.WindowEvent);
+  public void windowDeactivated(java.awt.event.WindowEvent);
+  public void windowStateChanged(java.awt.event.WindowEvent);
+  public void windowGainedFocus(java.awt.event.WindowEvent);
+  public void windowLostFocus(java.awt.event.WindowEvent);
+}
+```
+
+### KeyListener class (*disassembeled*)
+
+```bash
+javap java.awt.event.KeyListener
+Compiled from "KeyListener.java"
+public interface java.awt.event.KeyListener extends java.util.EventListener {
+  public abstract void keyTyped(java.awt.event.KeyEvent);
+  public abstract void keyPressed(java.awt.event.KeyEvent);
+  public abstract void keyReleased(java.awt.event.KeyEvent);
+}
+```

@@ -42,6 +42,41 @@
 - **A**bstract **W**indowing **T**oolkit [**AWT**] designed by HTML developers using ***C code***.
 - From `java` version 2.0; the AWT controls were replaced with *Java platform independent* **Swing** controls.
 
+### Program:-
+
+```java
+import java.awt.*;
+import java.awt.event.*; //Abstract Windowing Toolkit [AWT]
+
+public class Test extends Frame implements ActionListener{
+    static int count;
+    Button btnSubmit;
+    Label lblStatus;
+    public Test(){
+        btnSubmit=new Button("Press...");
+        lblStatus=new Label();
+        setVisible(true);
+        setSize(500,500);
+        //layout
+        setLayout(null); //null layout can be used if need to control each and every component
+        add(btnSubmit);
+        btnSubmit.setBounds(50,50,100,50); /*(X_displacement_coordinate,Y_displacement_coordinate,width,height)*/
+        add(lblStatus);
+        lblStatus.setBounds(50,100,100,50);
+        btnSubmit.addActionListener(this);
+    }
+    public void actionPerformed(ActionEvent ae){
+        lblStatus.setText(btnSubmit.getLabel()+(count++));
+        repaint();
+    }
+    public static void main(String[] args){
+        new Test();
+    }
+}
+```
+
+## References
+
 ### AWT frame class (*disassembeled*)
 
 ```bash
@@ -108,38 +143,5 @@ public class java.awt.Frame extends java.awt.Window implements java.awt.MenuCont
   public static java.awt.Frame[] getFrames();
   public javax.accessibility.AccessibleContext getAccessibleContext();
   static {};
-}
-```
-
-### Program:-
-
-```java
-import java.awt.*;
-import java.awt.event.*; //Abstract Windowing Toolkit [AWT]
-
-public class Test extends Frame implements ActionListener{
-    static int count;
-    Button btnSubmit;
-    Label lblStatus;
-    public Test(){
-        btnSubmit=new Button("Press...");
-        lblStatus=new Label();
-        setVisible(true);
-        setSize(500,500);
-        //layout
-        setLayout(null); //null layout can be used if need to control each and every component
-        add(btnSubmit);
-        btnSubmit.setBounds(50,50,100,50); /*(X_displacement_coordinate,Y_displacement_coordinate,width,height)*/
-        add(lblStatus);
-        lblStatus.setBounds(50,100,100,50);
-        btnSubmit.addActionListener(this);
-    }
-    public void actionPerformed(ActionEvent ae){
-        lblStatus.setText(btnSubmit.getLabel()+(count++));
-        repaint();
-    }
-    public static void main(String[] args){
-        new Test();
-    }
 }
 ```

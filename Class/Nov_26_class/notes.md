@@ -9,48 +9,6 @@
 - Types of menu items: Pull down menu item/Standard Menu item and pop-up menu item.
 - Swing components are look and feel components (By default, the Color is grey).
 
-## MenuBar class (*disassembeled*)
-
-```bash
-$ javap javax.swing.JMenuBar
-Compiled from "JMenuBar.java"
-public class javax.swing.JMenuBar extends javax.swing.JComponent implements javax.accessibility.Accessible,javax.swing.MenuElement {
-  public javax.swing.JMenuBar();
-  public javax.swing.plaf.MenuBarUI getUI();
-  public void setUI(javax.swing.plaf.MenuBarUI);
-  public void updateUI();
-  public java.lang.String getUIClassID();
-  public javax.swing.SingleSelectionModel getSelectionModel();
-  public void setSelectionModel(javax.swing.SingleSelectionModel);
-  public javax.swing.JMenu add(javax.swing.JMenu);
-  public javax.swing.JMenu getMenu(int);
-  public int getMenuCount();
-  public void setHelpMenu(javax.swing.JMenu);
-  public javax.swing.JMenu getHelpMenu();
-  public java.awt.Component getComponentAtIndex(int);
-  public int getComponentIndex(java.awt.Component);
-  public void setSelected(java.awt.Component);
-  public boolean isSelected();
-  public boolean isBorderPainted();
-  public void setBorderPainted(boolean);
-  protected void paintBorder(java.awt.Graphics);
-  public void setMargin(java.awt.Insets);
-  public java.awt.Insets getMargin();
-  public void processMouseEvent(java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager);
-  public void processKeyEvent(java.awt.event.KeyEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager);
-  public void menuSelectionChanged(boolean);
-  public javax.swing.MenuElement[] getSubElements();
-  public java.awt.Component getComponent();
-  protected java.lang.String paramString();
-  public javax.accessibility.AccessibleContext getAccessibleContext();
-  protected boolean processKeyBinding(javax.swing.KeyStroke, java.awt.event.KeyEvent, int, boolean);
-  static boolean processBindingForKeyStrokeRecursive(javax.swing.MenuElement, javax.swing.KeyStroke, java.awt.event.KeyEvent, int, boolean);
-  public void addNotify();
-  public void removeNotify();
-  public javax.swing.plaf.ComponentUI getUI();
-}
-```
-
 ## Programs
 
 ### Program 1a: WordPad using Swing
@@ -268,3 +226,52 @@ class EditFrame implements ItemListener{
 - Output:-
 
 [out.webm](https://user-images.githubusercontent.com/26346867/204096757-d2145a4c-9087-4da6-9724-0a13b71c1140.webm)
+
+<center><video controls>
+  <source src="https://user-images.githubusercontent.com/26346867/204096757-d2145a4c-9087-4da6-9724-0a13b71c1140.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video></center>
+
+## References
+
+### MenuBar class (*disassembeled*)
+
+```bash
+$ javap javax.swing.JMenuBar
+Compiled from "JMenuBar.java"
+public class javax.swing.JMenuBar extends javax.swing.JComponent implements javax.accessibility.Accessible,javax.swing.MenuElement {
+  public javax.swing.JMenuBar();
+  public javax.swing.plaf.MenuBarUI getUI();
+  public void setUI(javax.swing.plaf.MenuBarUI);
+  public void updateUI();
+  public java.lang.String getUIClassID();
+  public javax.swing.SingleSelectionModel getSelectionModel();
+  public void setSelectionModel(javax.swing.SingleSelectionModel);
+  public javax.swing.JMenu add(javax.swing.JMenu);
+  public javax.swing.JMenu getMenu(int);
+  public int getMenuCount();
+  public void setHelpMenu(javax.swing.JMenu);
+  public javax.swing.JMenu getHelpMenu();
+  public java.awt.Component getComponentAtIndex(int);
+  public int getComponentIndex(java.awt.Component);
+  public void setSelected(java.awt.Component);
+  public boolean isSelected();
+  public boolean isBorderPainted();
+  public void setBorderPainted(boolean);
+  protected void paintBorder(java.awt.Graphics);
+  public void setMargin(java.awt.Insets);
+  public java.awt.Insets getMargin();
+  public void processMouseEvent(java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager);
+  public void processKeyEvent(java.awt.event.KeyEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager);
+  public void menuSelectionChanged(boolean);
+  public javax.swing.MenuElement[] getSubElements();
+  public java.awt.Component getComponent();
+  protected java.lang.String paramString();
+  public javax.accessibility.AccessibleContext getAccessibleContext();
+  protected boolean processKeyBinding(javax.swing.KeyStroke, java.awt.event.KeyEvent, int, boolean);
+  static boolean processBindingForKeyStrokeRecursive(javax.swing.MenuElement, javax.swing.KeyStroke, java.awt.event.KeyEvent, int, boolean);
+  public void addNotify();
+  public void removeNotify();
+  public javax.swing.plaf.ComponentUI getUI();
+}
+```
