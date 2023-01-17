@@ -86,7 +86,7 @@ class EditFrame{
 
 [1.webm](https://user-images.githubusercontent.com/26346867/204316060-3baa84ca-754a-4dc4-ae18-e8e3c01998a0.webm)
 
-<center><video controls>
+<center><video width="100%" height= "auto" controls>
   <source src="https://user-images.githubusercontent.com/26346867/204316060-3baa84ca-754a-4dc4-ae18-e8e3c01998a0.webm" type="video/webm">
   Your browser does not support the video tag.
 </video></center>
@@ -201,7 +201,7 @@ class EditFrame{
 
 [out.webm](https://user-images.githubusercontent.com/26346867/204316194-b2c99c9b-4c1b-4baa-bc79-38c50df6ff26.webm)
 
-<center><video controls>
+<center><video width="100%" height= "auto" controls>
   <source src="https://user-images.githubusercontent.com/26346867/204316194-b2c99c9b-4c1b-4baa-bc79-38c50df6ff26.webm" type="video/webm">
   Your browser does not support the video tag.
 </video></center>

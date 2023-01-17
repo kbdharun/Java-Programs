@@ -40,7 +40,7 @@ class DemoFrame extends Frame implements WindowListener{
 
 [out1.webm](https://user-images.githubusercontent.com/26346867/203906716-8f8421c7-e58e-4314-a4e2-d6406a050a5a.webm)
 
-<center><video controls>
+<center><video width="100%" height= "auto" controls>
   <source src="https://user-images.githubusercontent.com/26346867/203906716-8f8421c7-e58e-4314-a4e2-d6406a050a5a.webm" type="video/webm">
   Your browser does not support the video tag.
 </video></center>
@@ -194,7 +194,7 @@ class DemoFrame extends Frame{
 
 [out5.webm](https://user-images.githubusercontent.com/26346867/203906666-2a4cce16-4c7f-4276-943d-a15089e59150.webm)
 
-<center><video controls>
+<center><video width="100%" height= "auto" controls>
   <source src="https://user-images.githubusercontent.com/26346867/203906666-2a4cce16-4c7f-4276-943d-a15089e59150.webm" type="video/webm">
   Your browser does not support the video tag.
 </video></center>

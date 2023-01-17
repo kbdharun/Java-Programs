@@ -227,7 +227,7 @@ class EditFrame implements ItemListener{
 
 [out.webm](https://user-images.githubusercontent.com/26346867/204096757-d2145a4c-9087-4da6-9724-0a13b71c1140.webm)
 
-<center><video controls>
+<center><video width="100%" height= "auto" controls>
   <source src="https://user-images.githubusercontent.com/26346867/204096757-d2145a4c-9087-4da6-9724-0a13b71c1140.webm" type="video/webm">
   Your browser does not support the video tag.
 </video></center>

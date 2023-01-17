@@ -130,7 +130,7 @@ class MulThread extends Thread{
 
 [1b.webm](https://user-images.githubusercontent.com/26346867/205220359-e756374e-7e4f-4e14-bdda-247f2d371d39.webm)
 
-<center><video controls>
+<center><video width="100%" height= "auto" controls>
   <source src="https://user-images.githubusercontent.com/26346867/205220359-e756374e-7e4f-4e14-bdda-247f2d371d39.webm" type="video/webm">
   Your browser does not support the video tag.
 </video></center>
@@ -179,7 +179,7 @@ class ThreadDemo{
 
 [2.webm](https://user-images.githubusercontent.com/26346867/205220387-4dac57e4-39f1-486f-ad5e-21874d902def.webm)
 
-<center><video controls>
+<center><video width="100%" height= "auto" controls>
   <source src="https://user-images.githubusercontent.com/26346867/205220387-4dac57e4-39f1-486f-ad5e-21874d902def.webm" type="video/webm">
   Your browser does not support the video tag.
 </video></center>
