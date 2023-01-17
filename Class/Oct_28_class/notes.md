@@ -28,48 +28,7 @@ ArrayList<Integer>
 ArrayList<classname> obj= new ArrayList<classname>(int) //we have 3 constructor - 1 default and 2 parameterized
 ```
 
-### Collection Package (*Disassembled*)
-
-```bash
-[user]$ javap java.util.Collection
-Compiled from "Collection.java"
-public interface java.util.Collection<E> extends java.lang.Iterable<E> {
-  public abstract int size();
-  public abstract boolean isEmpty();
-  public abstract boolean contains(java.lang.Object);
-  public abstract java.util.Iterator<E> iterator();
-  public abstract java.lang.Object[] toArray();
-  public abstract <T> T[] toArray(T[]);
-  public default <T> T[] toArray(java.util.function.IntFunction<T[]>);
-  public abstract boolean add(E);
-  public abstract boolean remove(java.lang.Object);
-  public abstract boolean containsAll(java.util.Collection<?>);
-  public abstract boolean addAll(java.util.Collection<? extends E>);
-  public abstract boolean removeAll(java.util.Collection<?>);
-  public default boolean removeIf(java.util.function.Predicate<? super E>);
-  public abstract boolean retainAll(java.util.Collection<?>);
-  public abstract void clear();
-  public abstract boolean equals(java.lang.Object);
-  public abstract int hashCode();
-  public default java.util.Spliterator<E> spliterator();
-  public default java.util.stream.Stream<E> stream();
-  public default java.util.stream.Stream<E> parallelStream();
-}
-
-```
-
-### Iterator Package (*Disassembeled*)
-
-```bash
-[user]$ javap java.util.Iterator
-Compiled from "Iterator.java"
-public interface java.util.Iterator<E> {
-  public abstract boolean hasNext();
-  public abstract E next();
-  public default void remove();
-  public default void forEachRemaining(java.util.function.Consumer<? super E>);
-}
-```
+## Programs
 
 ### Program 1:-
 
@@ -288,4 +247,49 @@ Before sorting...[120	XXX	34.5, 100	AAA	74.5, 202	BBB	64.5]
 100	AAA	74.5
 202	BBB	64.5
 120	XXX	34.5
+```
+
+## References
+
+### Collection Package (*Disassembled*)
+
+```bash
+[user]$ javap java.util.Collection
+Compiled from "Collection.java"
+public interface java.util.Collection<E> extends java.lang.Iterable<E> {
+  public abstract int size();
+  public abstract boolean isEmpty();
+  public abstract boolean contains(java.lang.Object);
+  public abstract java.util.Iterator<E> iterator();
+  public abstract java.lang.Object[] toArray();
+  public abstract <T> T[] toArray(T[]);
+  public default <T> T[] toArray(java.util.function.IntFunction<T[]>);
+  public abstract boolean add(E);
+  public abstract boolean remove(java.lang.Object);
+  public abstract boolean containsAll(java.util.Collection<?>);
+  public abstract boolean addAll(java.util.Collection<? extends E>);
+  public abstract boolean removeAll(java.util.Collection<?>);
+  public default boolean removeIf(java.util.function.Predicate<? super E>);
+  public abstract boolean retainAll(java.util.Collection<?>);
+  public abstract void clear();
+  public abstract boolean equals(java.lang.Object);
+  public abstract int hashCode();
+  public default java.util.Spliterator<E> spliterator();
+  public default java.util.stream.Stream<E> stream();
+  public default java.util.stream.Stream<E> parallelStream();
+}
+
+```
+
+### Iterator Package (*Disassembeled*)
+
+```bash
+[user]$ javap java.util.Iterator
+Compiled from "Iterator.java"
+public interface java.util.Iterator<E> {
+  public abstract boolean hasNext();
+  public abstract E next();
+  public default void remove();
+  public default void forEachRemaining(java.util.function.Consumer<? super E>);
+}
 ```

@@ -37,36 +37,6 @@ catch(NullPointerException | ArithemticException e){
 - Chained exception helps to **identify a situation in which one execution causes another exception.**
 - **Rethrow:** If a catch block cannot handle the particular exception it has caught, we can rethrow the exception. The rethrow expression causes the originally thrown object to be rethrown.
 
-## Reference
-
-```bash
-[user]$ javap java.lang.Throwable
-Compiled from "Throwable.java"
-public class java.lang.Throwable implements java.io.Serializable {
-  static final boolean $assertionsDisabled;
-  public java.lang.Throwable();
-  public java.lang.Throwable(java.lang.String);
-  public java.lang.Throwable(java.lang.String, java.lang.Throwable);
-  public java.lang.Throwable(java.lang.Throwable);
-  protected java.lang.Throwable(java.lang.String, java.lang.Throwable, boolean, boolean);
-  public java.lang.String getMessage();
-  public java.lang.String getLocalizedMessage();
-  public synchronized java.lang.Throwable getCause();
-  public synchronized java.lang.Throwable initCause(java.lang.Throwable);
-  final void setCause(java.lang.Throwable);
-  public java.lang.String toString();
-  public void printStackTrace();
-  public void printStackTrace(java.io.PrintStream);
-  public void printStackTrace(java.io.PrintWriter);
-  public synchronized java.lang.Throwable fillInStackTrace();
-  public java.lang.StackTraceElement[] getStackTrace();
-  public void setStackTrace(java.lang.StackTraceElement[]);
-  public final synchronized void addSuppressed(java.lang.Throwable);
-  public final synchronized java.lang.Throwable[] getSuppressed();
-  static {};
-}
-```
-
 ### Program 1: Using `throw` keyword to manually create an excpetion
 
 ```java
@@ -271,4 +241,34 @@ class AccountDemo{
 ```bash
 class NegativeValueException-450.0 is negative
 Account Created
+```
+
+## Reference (Throwable class)
+
+```bash
+[user]$ javap java.lang.Throwable
+Compiled from "Throwable.java"
+public class java.lang.Throwable implements java.io.Serializable {
+  static final boolean $assertionsDisabled;
+  public java.lang.Throwable();
+  public java.lang.Throwable(java.lang.String);
+  public java.lang.Throwable(java.lang.String, java.lang.Throwable);
+  public java.lang.Throwable(java.lang.Throwable);
+  protected java.lang.Throwable(java.lang.String, java.lang.Throwable, boolean, boolean);
+  public java.lang.String getMessage();
+  public java.lang.String getLocalizedMessage();
+  public synchronized java.lang.Throwable getCause();
+  public synchronized java.lang.Throwable initCause(java.lang.Throwable);
+  final void setCause(java.lang.Throwable);
+  public java.lang.String toString();
+  public void printStackTrace();
+  public void printStackTrace(java.io.PrintStream);
+  public void printStackTrace(java.io.PrintWriter);
+  public synchronized java.lang.Throwable fillInStackTrace();
+  public java.lang.StackTraceElement[] getStackTrace();
+  public void setStackTrace(java.lang.StackTraceElement[]);
+  public final synchronized void addSuppressed(java.lang.Throwable);
+  public final synchronized java.lang.Throwable[] getSuppressed();
+  static {};
+}
 ```

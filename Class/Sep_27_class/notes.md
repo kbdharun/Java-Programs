@@ -18,7 +18,7 @@ catch{
 }
 ```
 
-- Handler is a meaningful output to the enduser.
+- Handler is a meaningful output to the end-user.
 - If there is no try-catch block JVM will handle it. But when JVM handles an exception the control doesn't come back to the program.
 - If we don't know the exception we can use a Generic Handler.
 - Discovery: Catch inside try is allowed.
@@ -43,7 +43,6 @@ public class java.lang.ArithmeticException extends java.lang.RuntimeException {
 ![Table 1 contd](assets/exc2.png)
 
 > Note: All right reserved to original authors this image has only been added for your reference. Book: Java Complete Reference Eleventh Edition.
-
 
 ### Program 1: Arithmetic exception and ArrayIndexOutOfBounds Exceptions
 

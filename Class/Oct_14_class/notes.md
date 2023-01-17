@@ -28,6 +28,8 @@ synchronized{
 }
 ```
 
+## Programs
+
 ### Program 1a:-
 
 ```java

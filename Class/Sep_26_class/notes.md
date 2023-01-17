@@ -17,13 +17,13 @@
 
 ## Commands
 
-- `javap java.lang.Throwable` displays the exceptions available in java.
+- `javap java.lang.Throwable` displays the exceptions available in Java.
 - `javap java.lang.Thread` displays the exceptions and whether it is interrupted (check) or not.
 
 ## Exception
 
 - Exception is _Unexpected_ Runtime error.
-- Segmentation core dump is a runtime error. We don't know which line causes the segmentation error as no information is provided and the program gets terminated. This can be remedied by using **Checkpoint** or error injection code which is useful for procedural language programs which use all of the settings. In java, exception handling responds by providing a clear description of the stack trace of the error.
+- Segmentation core dump is a runtime error. We don't know which line causes the segmentation error as no information is provided and the program gets terminated. This can be remedied by using **Checkpoint** or error injection code which is useful for procedural language programs which use all of the settings. In Java, exception handling responds by providing a clear description of the stack trace of the error.
 - Default exception handler is present in JVM (Java Virtual Machine).
 - Custom exception has limited visibility in C++. But here in Java, most of the class exceptions are user-defined exceptions.
 - Main class is `Throwable`

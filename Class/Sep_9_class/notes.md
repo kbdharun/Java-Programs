@@ -41,7 +41,7 @@ class <subclass> extends <baseclass>{
 ```
 
 - Extends, super <-- keyword
-- Example: A->B (A,B has disp functions); when using Inheritance data will be allocated for A in B and the data members are shared.
+- Example: A->B (A,B has display (disp) functions); when using Inheritance data will be allocated for A in B and the data members are shared.
 
 ### Access Specifiers
 

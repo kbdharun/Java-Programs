@@ -17,12 +17,14 @@ class HelloWorld{
 		}
 		}
 }
+
 /* Note: Avoid * while importing packages as it will increase the compile time.
  But it can be used when you don't know the package in which your function resides. */
 ```
 
-```text
-Output:
+- Output:-
+
+```bash
 Hello world 0
 Hello world 1
 Hello world 2

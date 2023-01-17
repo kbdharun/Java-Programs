@@ -27,7 +27,70 @@
 - Whenever we use _Multitasking,Multiprogramming and Multithreading_ is used there is a PROBLEM **Dependency between statement**. The SOLUTION is to execute it in a synchronized manner or **Synchronized thread**.
 - Interthread communication and synchronized communication.
 
-### Packages
+### Thread States
+
+- |New|->Start()->|(Runnable[Ready to CPU])(Running[Assigned to CPU])|->Dead State.
+- Running is currently in excecution whereas runable isn't.
+- All states are represented as final static constants.
+- |New|->Start()->|(Runnable[Ready to CPU])(Running[Assigned to CPU])|-stop-> Terminated State.
+- Suspend function temporarily blocks a thead.
+
+### Program 1a: Simple Threading Program
+
+```java
+/* Simple Program using Threading */
+class MainThread{
+        public static void main(String[] args) {
+            Thread t=Thread.currentThread();
+            System.out.println(t.getName()+"..."+t.getState()+"..."+t.getPriority()+"..."+t.isAlive());
+        }
+}
+```
+
+- Output:-
+
+```text
+main...RUNNABLE...5...true
+```
+
+### Program 1b:-
+
+```java
+/* Simple Program using Threading */
+class MainThread{
+        public static void main(String[] args) {
+            Thread t=Thread.currentThread();
+            System.out.println(t.getName()+"..."+t.getState()+"..."+t.getPriority()+"..."+t.isAlive());
+        try{
+            for (int i=0;i<10;i++){
+                System.out.println(t.getName()+"...i..."+i);
+                Thread.sleep(1000);
+            }
+        }catch(InterruptedException e){
+            System.out.println("..."+e);
+        }
+    }
+}
+```
+
+- Output:-
+
+```bash
+[user]$ java MainThread
+main...RUNNABLE...5...true
+main...i...0
+main...i...1
+main...i...2
+main...i...3
+main...i...4
+main...i...5
+main...i...6
+main...i...7
+main...i...8
+main...i...9
+```
+
+## Reference Packages
 
 ```text
 java.lang.Thread (class)
@@ -103,67 +166,4 @@ public class java.lang.Thread implements java.lang.Runnable {
   static void processQueue(java.lang.ref.ReferenceQueue<java.lang.Class<?>>, java.util.concurrent.ConcurrentMap<? extends java.lang.ref.WeakReference<java.lang.Class<?>>, ?>);
   static {};
 }
-```
-
-### Thread States
-
-- |New|->Start()->|(Runnable[Ready to CPU])(Running[Assigned to CPU])|->Dead State.
-- Running is currently in excecution whereas runable isn't.
-- All states are represented as final static constants.
-- |New|->Start()->|(Runnable[Ready to CPU])(Running[Assigned to CPU])|-stop-> Terminated State.
-- Suspend function temporarily blocks a thead.
-
-### Program 1a: Simple Threading Program
-
-```java
-/* Simple Program using Threading */
-class MainThread{
-        public static void main(String[] args) {
-            Thread t=Thread.currentThread();
-            System.out.println(t.getName()+"..."+t.getState()+"..."+t.getPriority()+"..."+t.isAlive());
-        }
-}
-```
-
-- Output:-
-
-```text
-main...RUNNABLE...5...true
-```
-
-### Program 1b:-
-
-```java
-/* Simple Program using Threading */
-class MainThread{
-        public static void main(String[] args) {
-            Thread t=Thread.currentThread();
-            System.out.println(t.getName()+"..."+t.getState()+"..."+t.getPriority()+"..."+t.isAlive());
-        try{
-            for (int i=0;i<10;i++){
-                System.out.println(t.getName()+"...i..."+i);
-                Thread.sleep(1000);
-            }
-        }catch(InterruptedException e){
-            System.out.println("..."+e);
-        }
-    }
-}
-```
-
-- Output:-
-
-```bash
-[user]$ java MainThread
-main...RUNNABLE...5...true
-main...i...0
-main...i...1
-main...i...2
-main...i...3
-main...i...4
-main...i...5
-main...i...6
-main...i...7
-main...i...8
-main...i...9
 ```
