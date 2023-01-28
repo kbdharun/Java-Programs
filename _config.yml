@@ -3,3 +3,4 @@ url: https://kbdharun.github.io/Java-Programs
 plugins:
 - jekyll-remote-theme
 - jekyll-seo-tag
+- jekyll-sitemap
