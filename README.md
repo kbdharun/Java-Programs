@@ -1,6 +1,6 @@
 # Java-Programs
 
-This repository contains Java programs that I worked out in class, along with my lecture notes.
+This repository contains Java programs that I worked out in class (in 2022), along with my lecture notes.
 
 [![Deploy Webpage](https://github.com/kbdharun/Java-Programs/actions/workflows/pages.yml/badge.svg)](https://github.com/kbdharun/Java-Programs/actions/workflows/pages.yml)
 

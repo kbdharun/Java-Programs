@@ -73,13 +73,6 @@ class EditFrame{
 
 [1.webm](https://user-images.githubusercontent.com/26346867/205425413-1b994088-3375-4a9b-8e11-ce5a15ebf79e.webm)
 
-<div>
-<center><video width="100%" height= "auto" width="100%" height= "auto" controls>
-  <source src="https://user-images.githubusercontent.com/26346867/205425413-1b994088-3375-4a9b-8e11-ce5a15ebf79e.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video></center>
-</div>
-
 ### Program 2: DialogBox (Check Marks Program)
 
 ```java
@@ -136,9 +129,3 @@ class EditFrame{
 - Output:-
 
 [2.webm](https://user-images.githubusercontent.com/26346867/205425427-bd0ee96a-54c7-45ae-83b8-d581a9452cdb.webm)
-
-<center><video width="100%" height= "auto" controls>
-  <source src="https://user-images.githubusercontent.com/26346867/205425427-bd0ee96a-54c7-45ae-83b8-d581a9452cdb.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video></center>
-

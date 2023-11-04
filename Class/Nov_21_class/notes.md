@@ -172,11 +172,6 @@ class DemoFrame extends Frame implements MouseListener,MouseMotionListener, Item
 
 [DemoFrame.webm](https://user-images.githubusercontent.com/26346867/203282074-e5e83493-4af2-41f5-a829-932e1b3efb57.webm)
 
-<center><video width="100%" height= "auto" controls>
-  <source src="https://user-images.githubusercontent.com/26346867/203282074-e5e83493-4af2-41f5-a829-932e1b3efb57.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video></center>
-
 ## References
 
 ### Graphics Package (*disassembeled*)

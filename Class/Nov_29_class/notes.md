@@ -123,11 +123,6 @@ rb3.addItemListener(new ItemListener(){
 
 [1b.webm](https://user-images.githubusercontent.com/26346867/204508874-5611341d-32a2-4179-99ba-d12a00d97c42.webm)
 
-<center><video width="100%" height= "auto" controls>
-  <source src="https://user-images.githubusercontent.com/26346867/204508874-5611341d-32a2-4179-99ba-d12a00d97c42.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video></center>
-
 ### Program 1c:-
 
 ```java
@@ -192,12 +187,6 @@ class DemoFrame{
 - Output:-
 
 [1c.webm](https://user-images.githubusercontent.com/26346867/204508963-573573e2-191a-4f4b-b223-9284b2d4c5e1.webm)
-
-<center><video width="100%" height= "auto" controls>
-  <source src="https://user-images.githubusercontent.com/26346867/204508963-573573e2-191a-4f4b-b223-9284b2d4c5e1.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video></center>
-
 
 ## References
 

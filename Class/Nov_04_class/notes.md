@@ -334,4 +334,3 @@ Darth	65802409
 ### To try:-
 
 - Create employee class with empname, id and basic_name as data members compute DA(Dearness Allowance),HRA, DF, NetPay, GrossPay, DA is 10% of Basic Pay, HRA % of Bpay, Gross pay = Basic pay+DA+HRA. Create ArrayList to store 5 employee objects compute pay slips for each employee, and Display the list based on the sorted order of Basic/Net pay. Use ArrayList, Iterator, and Comparator.
-
