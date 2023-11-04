@@ -29,6 +29,7 @@ Display All Contacts – call the display contacts method from contact managemen
 class and get the list of contacts. Display all contacts in a text area by iterating the
 array list. (Concatenate all contact details into one single string and set this string
 to text area).*/
+
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;

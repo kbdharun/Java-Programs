@@ -1,6 +1,6 @@
 # Java-Programs
 
-This repository contains Java programs that I work out in class, along with my lecture notes.
+This repository contains Java programs that I worked out in class, along with my lecture notes.
 
 [![Deploy Webpage](https://github.com/kbdharun/Java-Programs/actions/workflows/pages.yml/badge.svg)](https://github.com/kbdharun/Java-Programs/actions/workflows/pages.yml)
 
@@ -25,8 +25,8 @@ This repository contains Java programs that I work out in class, along with my l
 - [FileInputStream and FileOutputStream (Oct 18)](Class/Oct_18_class/notes.md)
 - [FileReader and Extending a Thread (Oct 21)](Class/Oct_21_class/notes.md)
 - [Collection API (Oct 28)](Class/Oct_28_class/notes.md)
-- [ Collection API (List, Set, Map) (Nov 4)](Class/Nov_04_class/notes.md)
-- [ Collection API (Map, Comparator) (Nov 7)](Class/Nov_07_class/notes.md)
+- [Collection API (List, Set, Map) (Nov 4)](Class/Nov_04_class/notes.md)
+- [Collection API (Map, Comparator) (Nov 7)](Class/Nov_07_class/notes.md)
 - [Introduction to GUI (AWT) (Nov 14))](Class/Nov_14_class/notes.md)
 - [Actions (ActionEvent, ActionListener) and Introduction to Swing (Nov 18)](Class/Nov_18_class/notes.md).
 - [MouseEvent, MouseListener, MouseMotionListener (Nov 21)](Class/Nov_21_class/notes.md)
